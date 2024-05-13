@@ -33,3 +33,14 @@ nav {
   width: 100%;
   height: auto;
 }
+
+/* Adjust the size and position of icons */
+.section #skills .fa {
+  display: block; /* Make icons display as block elements */
+  margin: 0 auto; /* Center icons horizontally */
+}
+
+/* Optional: Add margin below each skill for spacing */
+.section #skills ul li {
+  margin-bottom: 20px;
+}
