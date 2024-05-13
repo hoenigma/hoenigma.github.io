@@ -1,0 +1,35 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #add8e6; /* Light Blue */
+  color: #333; /* Dark Gray */
+}
+
+nav {
+  background-color: #4682b4; /* Steel Blue */
+}
+
+.navbar-item {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-item:hover {
+  color: #add8e6;
+}
+
+.navbar-burger.is-active {
+  background-color: #333; /* Example background color for the active state */
+}
+
+.has-text-centered {
+  width: 30vw;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}

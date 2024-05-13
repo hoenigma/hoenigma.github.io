@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Hoenig</title>
+  </head>
+  <body>
+    <!------------ Navbar ----------------->
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#home">
+            <img
+              src="/images/logo2.png"
+              alt="Logo, a computer screen with a sea wave on it"
+              class="image is-32x32"
+            />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger burger"
+            id="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#about">About Me</a>
+            <a class="navbar-item" href="#projects">Projects</a>
+            <a class="navbar-item" href="#skills">Skills</a>
+            <a class="navbar-item" href="#interests">My Interests</a>
+            <a class="navbar-item" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------ Home ----------------->
+    <div id="home" class="hero-body">
+      <img
+        src="/images/header1.png"
+        alt="A picture of a man sitting on the coastline. There is a logo and the name Matthew Hoenig, subtilte Junior Software Engineer "
+        class="hero-image"
+      />
+    </div>
+
+    <main>
+      <!------------ Home ----------------->
+      <section id="about" class="">
+        <div class="columns pageheight aboutContainer">
+          <div class="column is-half-desktop is-two-thirds-widescreen">
+            <section class="section">
+              <div class="col-container">
+                <h1 class="title secheading aboutheading" id="about">
+                  ABOUT ME
+                </h1>
+                <p class="about-p"></p>
+              </div>
+            </section>
+          </div>
+          <div class="column is-half-desktop is-one-third-widescreen hide-mob">
+            <section class="section">
+              <div class="">
+                <img src="/images/logo.png" alt="Photo of me" />
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!------------ Skills ----------------->
+    </main>
+  </body>
+</html>
