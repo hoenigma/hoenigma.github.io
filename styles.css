@@ -49,10 +49,122 @@ nav {
   margin-bottom: 20px;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the carousel on the page */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the carousel items horizontally */
+  position: relative;
+}
+
 .carousel-item {
   display: none; /* Hide all carousel items by default */
 }
 
 .carousel-item.is-active {
-  display: block; /* Show only the active carousel item */
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  align-items: center; /* Center the carousel items horizontally */
+  background-color: antiquewhite;
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .carousel-image {
+  width: 40%; 
+  text-align: center;
+}
+
+.carousel-image img {
+  max-width: 100%;
+  height: auto;
+} */
+
+.carousel-details {
+  width: 55%;
+}
+
+.carousel-image {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-image img {
+  width: 65vh;
+  height: 65vh;
+}
+
+/* .carousel-details {
+  display: flex;
+  flex-direction: column;
+} */
+
+.carousel-description {
+  margin-top: 10px; /* Add some space between image and description */
+  text-align: left; /* Center text within description */
+}
+
+.carousel-description p {
+  margin-bottom: 10px;
+}
+
+.carousel-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*Align buttons to the start of the container */
+  margin-top: 30px;
+}
+
+.carousel-buttons a {
+  margin: 0;
+}
+
+.carousel-title {
+  font-size: xx-large;
+}
+
+.carousel-para {
+  font-size: x-large;
+}
+
+.project-title {
+  align-items: start;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
 }
