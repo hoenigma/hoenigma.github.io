@@ -48,3 +48,11 @@ nav {
 .section #skills ul li {
   margin-bottom: 20px;
 }
+
+.carousel-item {
+  display: none; /* Hide all carousel items by default */
+}
+
+.carousel-item.is-active {
+  display: block; /* Show only the active carousel item */
+}
