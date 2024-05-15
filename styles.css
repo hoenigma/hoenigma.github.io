@@ -49,6 +49,14 @@ nav {
   margin-bottom: 20px;
 }
 
+.about-p {
+  margin-bottom: 20px; /* Adjust the value as needed to create the desired gap */
+}
+
+.about-pic {
+  border-radius: 50%;
+}
+
 /* -------------PROJECT SECTION-CAROUSEL------------------------------------------ */
 
 .projects {
@@ -169,4 +177,34 @@ nav {
   .carousel-next {
     top: 90%;
   }
+}
+/* -------------------------------Contact------------------------------------------ */
+
+.h2-contact {
+  font-size: x-large;
+  text-align: center;
+}
+.social-icons {
+  text-align: center; /* Center the social icons horizontally */
+}
+
+ul.social-icons {
+  align-self: center;
+}
+
+.social-icons li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.social-icons li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-icons li a i {
+  font-size: 28px;
+  margin-right: 10px;
 }
