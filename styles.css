@@ -47,12 +47,22 @@ body {
   margin-bottom: 20px;
 }
 
+.subtitle {
+  font-style: italic;
+  margin-top: 10px;
+}
+
 .about-p {
   margin-bottom: 20px;
 }
 
 .about-pic {
   border-radius: 50%;
+}
+
+.devicon-heroku-original {
+  font-size: 50px;
+  margin-right: 5px;
 }
 
 /* -------------PROJECT SECTION-CAROUSEL------------------------------------------ */
@@ -156,6 +166,11 @@ body {
   right: 10px;
 }
 
+.carousel-prev,
+.carousel-next {
+  top: 60%;
+}
+
 @media screen and (max-width: 768px) {
   .carousel-item {
     flex-direction: column;
@@ -173,7 +188,7 @@ body {
 
   .carousel-prev,
   .carousel-next {
-    top: 90%;
+    top: 85%;
   }
 }
 /* -------------------------------Contact------------------------------------------ */
