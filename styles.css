@@ -203,7 +203,7 @@ body {
   font-size: 24px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 796px) {
   .carousel-item {
     flex-direction: column;
     height: auto;
@@ -226,6 +226,7 @@ body {
     margin-bottom: 20px;
     margin-right: 0px;
     margin-left: 0;
+    display: none;
   }
 
   .carousel-prev,
